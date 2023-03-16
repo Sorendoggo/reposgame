@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+h3 {
+    font-size: 50px;
+}
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px
+}
+.tile {
+    border: 3px solid midnightblue;
+    min-width: 80px;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+.player1 {
+    color: mediumseagreen;
+}
+.player2 {
+    color: slateblue;
+}
